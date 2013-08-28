@@ -1,49 +1,50 @@
-<?php
-	echo '{
-"timeline":
-{
-"headline":"The Main Timeline Headline Goes here",
+{"timeline":{
+"headline":"Tapas de Clarin",
 "type":"default",
-"text":"<p>Intro body text goes here, some HTML is ok</p>",
+"text":"Tapas de Clarin por eventos",
 "asset": {
-"media":"http://yourdomain_or_socialmedialink_goes_here.jpg",
-"credit":"Credit Name Goes Here",
-"caption":"Caption text goes here"
+"media":"clarin.jpg",
+"credit":"Clarin",
+"caption":"Clarin"
 },
-"date": [
-{
-"startDate":"2011,12,10",
-"endDate":"2011,12,11",
-"headline":"Headline Goes Here",
-"text":"<p>Body text goes here, some HTML is OK</p>",
-"tag":"This is Optional",
-"asset": {
-"media":"http://twitter.com/ArjunaSoriano/status/164181156147900416",
-"thumbnail":"optional-32x32px.jpg",
-"credit":"Credit Name Goes Here",
-"caption":"Caption text goes here"
-}
-}
-],
-"era": [
-{
-"startDate":"2011,12,10",
-"endDate":"2011,12,11",
-"headline":"Headline Goes Here",
-"tag":"This is Optional"
-}
-
-],
-"chart": [
-{
-"startDate":"2011,12,10",
-"endDate":"2011,12,11",
-"headline":"Headline Goes Here",
-"value":"28"
-}
-
-]
-
-}
-}';
-?>
+"date": [{"startDate":"2001,12,20",
+                "endDate":"2001,12,20",
+                "headline":"Renuncia Fernando de la Rúa",
+                "text":"El obvio rechazo del PJ decidió a De la Rúa a presentar su renuncia al Parlamento a las 19.45 horas del 20 de diciembre de 2001, cuando no había completado sino apenas la mitad de su mandato constitucional.",
+                "asset": {"media":"http://tapas.clarin.com/tapa/2001/12/20/20011220_thumb.jpg",
+                "credit":"Clarin","caption":"<a href='http://tapas.clarin.com/tapa/2001/12/20/20011220.jpg'>Ampliar</a>"}},{"startDate":"1999,12,10",
+                "endDate":"1999,12,10",
+                "headline":"Asume Fernando de la Rúa la presidencia",
+                "text":"Fernando de la Rúa, candidato de la Alianza, fue electo presidente en las elecciones del 24 de octubre de 1999, y el justicialismo perdió la mayoría en la Cámara de Diputados. La Alianza y su fórmula De la Rúa-Álvarez obtuvo el 48,5% de los sufragios, contra el 38,09% del binomio peronista Eduardo Duhalde-Ramón Ortega. En tercer lugar, con el 10,09% de los votos, aparecía el ex ministro de Economía Domingo Cavallo",
+                "asset": {"media":"http://tapas.clarin.com/tapa/1999/12/10/19991210_thumb.jpg",
+                "credit":"Clarin","caption":"<a href='http://tapas.clarin.com/tapa/1999/12/10/19991210.jpg'>Ampliar</a>"}},{"startDate":"1983,12,10",
+                "endDate":"1983,12,10",
+                "headline":"Asume Raúl Alfonsin la presidencia",
+                "text":"Las elecciones se realizaron el 30 de octubre de 1983 y Alfonsín triunfó obteniendo el 51,7% de los votos frente al 40,1% del peronismo. Asumió en el cargo el 10 de diciembre, fecha en que tuvo lugar una gran concentración popular en la Plaza de Mayo, pero en lugar de saludar desde los balcones de la Casa Rosada Alfonsín habló desde el Cabildo de Buenos Aires.",
+                "asset": {"media":"http://tapas.clarin.com/tapa/1983/12/10/19831210_thumb.jpg",
+                "credit":"Clarin","caption":"<a href='http://tapas.clarin.com/tapa/1983/12/10/19831210.jpg'>Ampliar</a>"}},{"startDate":"1989,07,08",
+                "endDate":"1989,07,08",
+                "headline":"Asume Carlos Menem la presidencia",
+                "text":"Carlos Menem asumió la presidencia el 8 de julio de 1989, tras el retiro anticipado de Raúl Alfonsín. Fue por entonces la primera sucesión presidencial entre dos presidentes constitucionales desde 1928, y la primera desde 1916 entre presidentes de diferentes partidos políticos.",
+                "asset": {"media":"http://tapas.clarin.com/tapa/1989/07/08/19890708_thumb.jpg",
+                "credit":"Clarin","caption":"<a href='http://tapas.clarin.com/tapa/1989/07/08/19890708.jpg'>Ampliar</a>"}},{"startDate":"1995,07,08",
+                "endDate":"1995,07,08",
+                "headline":"Asume Carlos Menem su segundo mandato",
+                "text":"En su segundo mandato, Menem mantuvo las políticas económicas de su primera etapa de gobierno. Esta vez, sin embargo, el comienzo de una recesión en el tercer trimestre de 1998 y nuevas acusaciones de corrupción tuvieron como consecuencia un descenso en su popularidad",
+                "asset": {"media":"http://tapas.clarin.com/tapa/1995/07/08/19950708_thumb.jpg",
+                "credit":"Clarin","caption":"<a href='http://tapas.clarin.com/tapa/1995/07/08/19950708.jpg'>Ampliar</a>"}},{"startDate":"2003,05,25",
+                "endDate":"2003,05,25",
+                "headline":"Asume Néstor Kirchner la presidencia",
+                "text":"En las Elecciones Presidenciales del 27 de abril de 2003, la fórmula Kirchner — Scioli del Frente para la Victoria obtuvo 4.312.517 votos, el 22,24 % del total, resultando superado por la fórmula Menem/Romero de la Alianza Frente por la Lealtad - UCeDe, que obtuvo el 24,3 %. La elección debería definirse en segunda vuelta electoral entre ambas listas.",
+                "asset": {"media":"http://tapas.clarin.com/tapa/2003/05/25/20030525_thumb.jpg",
+                "credit":"Clarin","caption":"<a href='http://tapas.clarin.com/tapa/2003/05/25/20030525.jpg'>Ampliar</a>"}},{"startDate":"2007,12,10",
+                "endDate":"2007,12,10",
+                "headline":"Asume Cristina Fernández de Kirchner la presidencia",
+                "text":"El 28 de octubre de 2007 se consagra ganadora en primera vuelta con el 45,29 % de los votos positivos ―con uno de los más holgados márgenes de ventaja desde el retorno de la democracia en 1983―, en una elección donde la abstención fue la mayor desde las elecciones de 1922, sucediendo el 10 de diciembre a su esposo Néstor Kirchner, quien había desempeñado el cargo hasta esa fecha.",
+                "asset": {"media":"http://tapas.clarin.com/tapa/2007/12/10/20071210_thumb.jpg",
+                "credit":"Clarin","caption":"<a href='http://tapas.clarin.com/tapa/2007/12/10/20071210.jpg'>Ampliar</a>"}},{"startDate":"2011,12,10",
+                "endDate":"2011,12,10",
+                "headline":"Asume Cristina Fernández de Kirchner su segundo mandato",
+                "text":"La presidenta Cristina Kirchner y el vicepresidente electo, Amado Boudou, prestaron juramento al mediodía ante la Asamblea Legislativa y luego del discurso de inicio de gestión se dirigieron a Casa de Gobierno, ovacionados por una Avenida de Mayo cubierta con miles de personas.",
+                "asset": {"media":"http://tapas.clarin.com/tapa/2011/12/10/20111210_thumb.jpg",
+                "credit":"Clarin","caption":"<a href='http://tapas.clarin.com/tapa/2011/12/10/20111210.jpg'>Ampliar</a>"}}]}}

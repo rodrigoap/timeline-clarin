@@ -1,6 +1,6 @@
 <?php
 
-	$mysqli = new mysqli("localhost", "root", "", "timeline");
+	$mysqli = new mysqli("localhost", "root", "", "timelineclarin");
 
 	$day = $_POST['day'];
 	$month = $_POST['month'];
@@ -13,7 +13,7 @@
 	
 	if ($stmt->prepare($query)) { 
 		$stmt->bind_param('sssss', $day, $month, $year, $title, $text);
-		$stmt->execute();
+                if (!$stmt->execute()) echo "Execute failed: (" . $mysqli->errno . ") " . $mysqli->error;
 	}
 	echo "Done.";
 ?>
